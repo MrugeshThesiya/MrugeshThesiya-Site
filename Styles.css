@@ -54,11 +54,12 @@ hr{
 
 .list-non-bullet{
     list-style: none;
+    padding-inline-start : 0px;
 }
 
 .list-item-inline{
     display : inline;
-    padding : 0rem 0.5rem;
+    
 }
 
 /**navigation*/
@@ -66,7 +67,7 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color : white;
-    padding : 1rem;
+    padding : 1rem ;
     border-bottom-left-radius: 1rem;
 }
 
@@ -76,6 +77,8 @@ hr{
 
 .navigation .nav-pills{
     text-align: right;
+    margin : 0.6rem 1rem;
+    
 }
 
 .navigation .nav-brand{
