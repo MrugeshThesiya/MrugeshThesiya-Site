@@ -2,9 +2,12 @@
 
 :root{
     --primary-color : #00B0FF;
+    --dark-gray : #64748b;
+    --light-gray : #f1f5f9;
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    margin : 0px;
 }
 
 hr{
@@ -77,4 +80,56 @@ hr{
 
 .navigation .link-active{
     font-weight:bold;
+}
+
+/**Header**/
+.hero{
+    padding : 2rem;
+}
+
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin:auto;
+}
+
+.hero .hero-heading{
+    color:var(--dark-gray);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.hero .hero-heading .hero-heading-focus
+{
+    color:var(--primary-color);
+}
+
+/**Sections**/
+
+.section{
+    padding : 2rem;
+}
+
+.section h1{
+    text-align: center;
+}
+.ow{
+    background-color : var(--light-gray)
+}
+
+/**footers**/
+.footer{
+    background-color: var(--primary-color);
+    color : white;
+    padding: 2rem 0rem;
+    text-align: center;
+    border-top-right-radius:1rem ;
+}
+
+.footer .link{
+    color : white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
