@@ -28,9 +28,11 @@ hr{
 /** links **/
 
 .link{
+    max-width: 180px;
     padding : 0.5rem 1rem;
     text-decoration: none;
     margin : 0rem 0.25rem;
+    text-align: center;
 }
 
 .link-primary{
@@ -38,12 +40,15 @@ hr{
     color : white;
     border-radius : 0.5rem;
 }
-
 .link-secondary{
     color: var(--primary-color);
-    border-radius : 0.5rem;
+    border-radius : 2rem;
     border : 1px solid var(--primary-color);
+    margin : 1rem auto;
+    display: block;
 }
+
+
 
 /**list**/
 
@@ -128,6 +133,11 @@ hr{
 
 .footer .link{
     color : white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul{
