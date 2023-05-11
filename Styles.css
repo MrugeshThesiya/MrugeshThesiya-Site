@@ -4,6 +4,7 @@
     --primary-color : #00B0FF;
     --dark-gray : #64748b;
     --light-gray : #f1f5f9;
+    --minion-color : #eab308;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -95,6 +96,8 @@ hr{
     padding : 1rem;
     border-bottom-left-radius: 1rem;
 }
+
+
 
 .navigation .link{
     color : white;
