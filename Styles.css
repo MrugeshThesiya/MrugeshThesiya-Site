@@ -28,7 +28,7 @@ hr{
 /** links **/
 
 .link{
-    max-width: 180px;
+    max-width: 200px;
     text-decoration: none;
     margin : 0rem 0.25rem;
     text-align: center;
@@ -44,7 +44,10 @@ hr{
     border-radius : 2rem;
     border : 1px solid var(--primary-color);
     margin : 1rem auto;
-    /* display: block; */
+    display: block;
+    font-size: 1.1rem;
+    padding : 0.5rem 1rem;
+
 }
 
 
@@ -135,6 +138,7 @@ hr{
 
 .footer .link{
     color : white;
+    font-size: 1.1rem;
 }
 
 .footer .footer-header{
