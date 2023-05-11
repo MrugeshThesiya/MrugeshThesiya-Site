@@ -176,3 +176,13 @@ hr{
 .footer ul{
     padding-inline-start: 0px;
 }
+
+/**Translate Button**/
+button{
+    background-color: var(--primary-color);
+    margin : 1rem 1rem;
+    padding : 0.5rem 2rem;
+    font-size: large;
+    border : 1px solid black;
+    border-radius: 1rem;
+}
