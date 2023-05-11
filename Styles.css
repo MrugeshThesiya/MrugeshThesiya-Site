@@ -29,7 +29,6 @@ hr{
 
 .link{
     max-width: 180px;
-    padding : 0.5rem 1rem;
     text-decoration: none;
     margin : 0rem 0.25rem;
     text-align: center;
@@ -67,13 +66,13 @@ hr{
 .navigation{
     background-color: var(--primary-color);
     color : white;
-    padding : 1rem 0rem;
-    padding-left: 0.2rem;
+    padding : 1rem;
     border-bottom-left-radius: 1rem;
 }
 
 .navigation .link{
     color : white;
+    font-size: 1.1rem;
 }
 
 .navigation .nav-pills{
