@@ -78,6 +78,7 @@ hr{
 .navigation .nav-pills{
     text-align: right;
     margin : 0.6rem 1rem;
+    padding-right: 10px;
     
 }
 
