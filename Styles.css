@@ -77,8 +77,6 @@ hr{
 
 .navigation .nav-pills{
     text-align: right;
-    margin : 0.6rem 1rem;
-    /* padding-right: 10px; */
     
 }
 
@@ -88,7 +86,7 @@ hr{
 }
 
 .navigation .link-active{
-    font-weight:bold;
+    font-weight: bold ;
 }
 
 /**Header**/
