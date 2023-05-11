@@ -148,6 +148,7 @@ hr{
 
 .section h1{
     text-align: center;
+    margin-bottom: 0rem;
 }
 .ow{
     background-color : var(--light-gray)
