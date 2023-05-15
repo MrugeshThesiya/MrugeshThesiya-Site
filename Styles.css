@@ -7,9 +7,17 @@
     --light-gray : #f1f5f9;
     --minion-color : #eab308;
 }
+html,body{
+    min-height: 100vh;
+}
 body{
     font-family: 'Montserrat', sans-serif;
-    margin : 0px;
+    margin : 0;
+    line-height: 1.5;
+    > footer {
+        position: sticky;
+        top: 100vh;
+    }
 }
 
 hr{
@@ -226,4 +234,17 @@ button{
     font-size: large;
     border : 1px solid black;
     border-radius: 1rem;
+}
+
+@media screen and (max-width:600px) {
+   h1{
+    font-size: 1.5rem;
+   }
+   .link-secondary-v3{
+    color: var(--primary-color);
+    border-radius : 2rem;
+    border : 1px solid var(--primary-color);
+    margin-top : 0.5rem;
+    font-size: 1rem;
+}
 }
