@@ -2,6 +2,7 @@
 
 :root{
     --primary-color : #00B0FF;
+    --second-blue-color : #0369a1;
     --dark-gray : #64748b;
     --light-gray : #f1f5f9;
     --minion-color : #eab308;
@@ -79,6 +80,14 @@ hr{
     font-size: 1.1rem;
 }
 
+.link-secondary-v3{
+    color: var(--primary-color);
+    border-radius : 2rem;
+    border : 1px solid var(--primary-color);
+    margin-top : 0.5rem;
+    font-size: 1.1rem;
+}
+
 
 
 /**list**/
@@ -102,6 +111,11 @@ hr{
     border-bottom-left-radius: 1rem;
 }
 
+.nav2{
+    text-align: right;
+    margin-left: auto;
+    display : in;
+}
 
 
 .navigation .link{
@@ -157,6 +171,13 @@ hr{
 }
 .ow{
     background-color : var(--light-gray)
+}
+
+.sbsection{
+    display: flex;
+    justify-content: space-between;
+    padding : 0px 10px;
+    font-weight: bold;
 }
 
 .section-pc{
