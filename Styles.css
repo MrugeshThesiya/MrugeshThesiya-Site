@@ -88,6 +88,13 @@ hr{
     font-size: 1.1rem;
 }
 
+.link-secondary-v4{
+    color: var(--dark-gray);
+    border-radius : 2rem;
+    border : 1px solid var(--dark-gray);
+    margin-top : 0.5rem;
+    font-size: 1.1rem;
+}
 
 
 /**list**/
