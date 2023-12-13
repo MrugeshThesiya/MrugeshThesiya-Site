@@ -6,23 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini P1 : Minion Speak</title>
     <link href="/Styles.css" rel="stylesheet"/>
-    <style>
-        textarea{
-            width : 80%;
-            height : 10vh;
-            display: block;
-            margin : 1rem;
-            padding : 1rem;
-        }
-
-        #output{
-            border: 1px solid black;
-            height: 10vh;
-            width: 80%;
-            margin : 1rem;
-            padding : 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="Project1.css">
+    <title>JavaScript Background Color Switcher</title>
 </head>
 <body>
     <nav style="border-radius: 0rem;" class = "navigation container">
@@ -46,11 +31,19 @@
             Mini Project 2 ➡️
           </a>
         </div>
-    <h1 style="text-align: center;">Translate To Minion Language</h1>
-    <textarea style="display: block; margin: auto; margin-bottom: 1rem;"id = "txt-input"placeholder="Enter a sentence in English here and We will convert it to Minion Language."></textarea>
-    <button style="display: block; margin: auto;"id="btn-translate">Translate</button>
-    <div style="text-align: center; font-size: larger; ">Output will come here 👇</div>
-    <div style="display: block; margin: 1rem auto; "id="output"></div>
+            <div class="canvas">
+              <h1>Color Scheme Switcher</h1>
+              <div class="colors">
+                  <span class="button" id="grey">Gray</span>
+                  <span class="button" id="white">White</span>
+                  <span class="button" id="cyan">Blue</span>
+                  <span class="button" id="yellow">Yellow</span>
+                </div>
+                  <h2>
+                Try clicking on one of the colors above
+                <span>to change the background color of this page!</span>
+              </h2>
+            </div>
     <footer class="footer ">
         <div class="footer-header">Connect With Me Online</div>
         <ul class="list-non-bullet container-center">
