@@ -16,6 +16,6 @@ form.addEventListener("submit",(e)=>{
         results.appendChild(document.createTextNode("You are in the Normal Range."))
     }
     else{
-        results.appendChild(document.createTextNode("You are Overweight ."))
+        results.appendChild(document.createTextNode("You are Overweight."))
     }
 })
