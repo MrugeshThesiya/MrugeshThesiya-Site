@@ -178,6 +178,7 @@ hr{
 
 .section{
     padding : 2rem;
+    width: 100%;
 }
 
 .section h1{
@@ -188,6 +189,11 @@ hr{
     background-color : var(--light-gray)
 }
 
+.ProjWrapper{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
 .sbsection{
     display: flex;
     justify-content: space-between;
@@ -236,6 +242,11 @@ button{
     border-radius: 1rem;
 }
 
+@media screen and (max-width:975px) {
+    .ProjWrapper{
+        flex-wrap: wrap;
+    }
+}
 @media screen and (max-width:600px) {
    h1{
     font-size: 1.5rem;
