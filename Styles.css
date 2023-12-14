@@ -178,7 +178,7 @@ hr{
 
 .section{
     padding : 2rem;
-    width: 100%;
+    flex-basis: 27%;
 }
 
 .section h1{
@@ -191,8 +191,8 @@ hr{
 
 .ProjWrapper{
     display: flex;
-    justify-content: center;
     width: 100vw;
+    flex-wrap: wrap;
 }
 .sbsection{
     display: flex;
@@ -242,9 +242,9 @@ button{
     border-radius: 1rem;
 }
 
-@media screen and (max-width:975px) {
-    .ProjWrapper{
-        flex-wrap: wrap;
+@media screen and (max-width:1020px) {
+    .section{
+        flex-basis: 100%;
     }
 }
 @media screen and (max-width:600px) {
