@@ -18,6 +18,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
   }
 
   .colors{
@@ -31,15 +32,28 @@ html {
   
   #grey {
     background: grey;
+    color: white;
   }
   
   #white {
     background: white;
   }
+
   #cyan {
     background: cyan;
   }
+
   #yellow {
     background: yellow;
   }
+
+  #purple{
+    background: purple;
+    color: white;
+  }
   
+  #green{
+    background: green;
+    color: white;
+
+  }
