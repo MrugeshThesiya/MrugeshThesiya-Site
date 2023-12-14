@@ -199,6 +199,7 @@ hr{
     display: flex;
     padding : 0px 10px;
     font-weight: bold;
+    justify-content: space-between;
 }
 
 .section-pc{
