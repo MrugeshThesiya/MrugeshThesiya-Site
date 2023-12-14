@@ -77,7 +77,6 @@ const evaluateGuess = (value) =>{
 
         guess.value = '';
         guessDone++;
-        console.log(guessDone)
         if (guessDone == 10){
             play = false
             endGame()
@@ -89,8 +88,6 @@ const evaluateGuess = (value) =>{
 
 sbtn.addEventListener('click', (e) => {
   e.preventDefault();
-  console.log(random);
-  
   validateGuess(guess.value)
   }
 );
