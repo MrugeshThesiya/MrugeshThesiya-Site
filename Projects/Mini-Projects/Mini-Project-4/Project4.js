@@ -11,7 +11,9 @@ let play = true
 
 const newgame = document.createElement('h1');
 const endGame  = () => {
-    loworhi.innerHTML = `<h2>The Random Number Was ${random}</h2>`;
+    const loworhi2 = document.createElement('h2')
+    loworhi2.innerHTML = `The Random Number Was ${random}`
+    loworhi.append(loworhi2)
     newgame.innerHTML = 'Click Here To Replay';
     newgame.style.cursor = 'pointer'
     newgame.addEventListener('click', (e) => {
@@ -55,6 +57,7 @@ const evaluateGuess = (value) =>{
         let diff = Math.abs(random - value);
 
         if (guessDone == 0) {
+          console.log(random)
           guesses.append(`${value}`);
         } 
         else {
