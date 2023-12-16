@@ -158,9 +158,12 @@ hr{
 }
 
 .hero .hero-image{
-    max-width: 300px;
+    width: 250px;
+    aspect-ratio: 1;
+    background: url("/Images/New_profile_pic_1.jpg") no-repeat center center/cover;
     display: block;
     margin:auto;
+    border-radius: 10px;
 }
 
 .hero .hero-heading{
