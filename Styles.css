@@ -159,9 +159,16 @@ hr{
 
 .hero .hero-image{
     width: 250px;
+    display: block;
+    margin:auto;
+    border-radius: 10px;
+}
+
+.hero .hero-image-div{
+    width: 250px;
+    height: 250px;
     aspect-ratio: 1;
     background: url("/Images/New_profile_pic_1.jpg") no-repeat center center/cover;
-    display: block;
     margin:auto;
     border-radius: 10px;
 }
