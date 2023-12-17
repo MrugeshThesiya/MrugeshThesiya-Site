@@ -16,17 +16,16 @@ const endGame  = () => {
     loworhi.append(loworhi2)
     newgame.innerHTML = 'Click Here To Replay';
     newgame.style.cursor = 'pointer'
-    newgame.addEventListener('click', (e) => {
-       newGame() 
-    });
+    newgame.addEventListener('click', newGame);
     wrapper.appendChild(newgame);
 }
 
 const newGame = () =>{
+    guess.value = ''
     guesses.innerHTML = '';
     loworhi.innerHTML = '';
     lastResult.innerHTML = 10;
-    wrapper.removeChild(newgame);
+    newgame.remove();
     guessDone = 0;
     random = random_num();
     play = true
@@ -57,7 +56,6 @@ const evaluateGuess = (value) =>{
         let diff = Math.abs(random - value);
 
         if (guessDone == 0) {
-          console.log(random)
           guesses.append(`${value}`);
         } 
         else {

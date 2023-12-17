@@ -1,0 +1,26 @@
+body{
+    background-color: #1c1c1c;
+}
+th,
+td {
+    border: 1px solid white;
+    padding: 5px;
+}
+
+table {
+    border: 1px solid white;
+    color: aliceblue;
+    margin: 10px;
+}
+
+
+
+.project {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+}
