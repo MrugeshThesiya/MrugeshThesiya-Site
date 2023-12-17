@@ -78,7 +78,7 @@ const evaluateGuess = (value) =>{
 
         guess.value = '';
         guessDone++;
-        if (guessDone == 10){
+        if (guessDone == 10 && diff !=0){
             play = false
             endGame()
         }
